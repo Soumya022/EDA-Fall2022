@@ -1,0 +1,39 @@
+---
+title: "Practice Book"
+author: "Soumya Mathew"
+date: "2022-09-18"
+output: pdf_document
+---
+```{r}
+summary(imported$DAILY_OBS_COUNT)
+```
+**bold**
+__italic__
+
+# Header
+##  Subheader
+
+```{r}
+
+row.names.data.frame(imported)
+```
+
+```{r}
+summary(cars)
+```
+
+```{r}
+table_test <- read.csv("./Data/Raw/EPAair_O3_NC2018_raw.csv")
+table_test
+```
+
+```{r}
+imported <- EPAair_O3_NC2018_raw
+imported
+```
+
+
+```{r}
+
+```
+
